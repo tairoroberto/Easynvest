@@ -1,0 +1,22 @@
+{
+  "investmentParameter": {
+    "investedAmount": 200.0,
+    "yearlyInterestRate": 4.8731,
+    "maturityTotalDays": 1096,
+    "maturityBusinessDays": 777,
+    "maturityDate": "2023-06-03T00:00:00",
+    "rate": 100.0,
+    "isTaxFree": false
+  },
+  "grossAmount": 231.60,
+  "taxesAmount": 4.74,
+  "netAmount": 226.86,
+  "grossAmountProfit": 31.60,
+  "netAmountProfit": 26.86,
+  "annualGrossRateProfit": 15.80,
+  "monthlyGrossRateProfit": 0.4,
+  "dailyGrossRateProfit": 0.000188830770053494,
+  "taxesRate": 15.0,
+  "rateProfit": 4.8731,
+  "annualNetRateProfit": 13.43
+}

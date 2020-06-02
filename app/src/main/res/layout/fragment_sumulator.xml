@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".sumulator.view.SimulatorFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:fillViewport="true"
+        app:layout_constraintBottom_toTopOf="@+id/buttonSimulate"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:gravity="center"
+                android:text="@string/text_invested_amount"
+                android:textColor="@color/text_label_color" />
+
+            <EditText
+                android:id="@+id/editInvestedAmount"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:digits="R$01234567890.,"
+                android:gravity="center"
+                android:hint="@string/money_symbol"
+                android:inputType="numberDecimal"
+                android:maxLength="20"
+                android:textColor="@color/edit_hint_color"
+                android:textSize="28sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:gravity="center"
+                android:text="@string/text_maturity_date"
+                android:textColor="@color/text_label_color" />
+
+            <EditText
+                android:id="@+id/editMaturityDate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:digits="01234567890/"
+                android:gravity="center"
+                android:hint="@string/day_month_year"
+                android:inputType="date"
+                android:maxLength="10"
+                android:textColor="@color/edit_hint_color"
+                android:textSize="28sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:gravity="center"
+                android:text="@string/text_rate"
+                android:textColor="@color/text_label_color" />
+
+            <EditText
+                android:id="@+id/editRate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:digits="01234567890"
+                android:gravity="center"
+                android:hint="@string/one_hundred_percent"
+                android:inputType="number"
+                android:maxLength="3"
+                android:textColor="@color/edit_hint_color"
+                android:textSize="28sp" />
+
+            <ProgressBar
+                android:id="@+id/progress"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:indeterminate="true"
+                android:visibility="gone"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+    <Button
+        android:id="@+id/buttonSimulate"
+        style="@style/Button"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="16dp"
+        android:text="@string/button_simulate"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

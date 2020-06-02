@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Easynvest TAIRO</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="button_simulate">Simular</string>
+    <string name="button_simulate_again">Simular novamente</string>
+    <string name="simulator_fragment_label">Simulação Easynvest</string>
+    <string name="text_invested_amount">Quanto você gostaria de aplicar? *</string>
+    <string name="text_maturity_date">Qual a data de venciemento do investimento? *</string>
+    <string name="money_symbol">R$</string>
+    <string name="text_rate">Qual percentual do CDI do investimento? *</string>
+    <string name="one_hundred_percent">100%</string>
+    <string name="day_month_year">dia/mês/ano</string>
+
+    <string name="text_result_simulation">Resultado da simulação</string>
+    <string name="text_gross_amount">Valor bruto investido</string>
+    <string name="text_gross_amount_profit">Valor do rendimento</string>
+    <string name="text_initial_value">Valor aplicado inicialmente</string>
+    <string name="text_tax_investment">IR sobre o investimento</string>
+    <string name="text_net_amount">Valor liquido do investimento</string>
+    <string name="text_maturity_date_rescue">Data de resgate</string>
+    <string name="text_total_maturity_days">Dias corridos</string>
+    <string name="text_monthly_gross_rate_profit">Rendimento mensal</string>
+    <string name="text_rate_investment">Percentual do CDI do investimento</string>
+    <string name="text_text_annual_gross_rate_rofit">Rentabilidade anual</string>
+    <string name="text_rate_profit">Rentabilidade no período</string>
+</resources>

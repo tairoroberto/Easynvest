@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#01C8B3</color>
+    <color name="colorPrimaryDark">#02A291</color>
+    <color name="colorAccent">#01C8B3</color>
+
+    <color name="edit_hint_color">#A49C99</color>
+    <color name="text_label_color">#9D9F9D</color>
+    <color name="text_value_color">#25505F</color>
+    <color name="text_value_accent_color">#41D2CD</color>
+    <color name="text_tile_color">#333333</color>
+</resources>
