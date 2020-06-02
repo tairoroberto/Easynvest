@@ -2,9 +2,9 @@ package br.com.tairoroberto.easynvest
 
 import androidx.arch.core.executor.testing.InstantTaskExecutorRule
 import br.com.tairoroberto.easynvest.core.State
-import br.com.tairoroberto.easynvest.sumulator.model.SimulatorResponse
-import br.com.tairoroberto.easynvest.sumulator.repository.SimulatorRepository
-import br.com.tairoroberto.easynvest.sumulator.viewmodel.SimulatorViewModel
+import br.com.tairoroberto.easynvest.simulator.model.SimulatorResponse
+import br.com.tairoroberto.easynvest.simulator.repository.SimulatorRepository
+import br.com.tairoroberto.easynvest.simulator.viewmodel.SimulatorViewModel
 import com.google.common.truth.Truth.assertThat
 import com.google.gson.Gson
 import kotlinx.coroutines.Dispatchers

@@ -1,6 +1,6 @@
 package br.com.tairoroberto.easynvest.data
 
-import br.com.tairoroberto.easynvest.sumulator.model.SimulatorResponse
+import br.com.tairoroberto.easynvest.simulator.model.SimulatorResponse
 import retrofit2.http.GET
 import retrofit2.http.Query
 

@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/SimulatorFragment"
-        android:name="br.com.tairoroberto.easynvest.sumulator.view.SimulatorFragment"
+        android:name="br.com.tairoroberto.easynvest.simulator.view.SimulatorFragment"
         android:label="@string/simulator_fragment_label"
         tools:layout="@layout/fragment_sumulator">
 
@@ -17,7 +17,7 @@
     </fragment>
     <fragment
         android:id="@+id/ResultFragment"
-        android:name="br.com.tairoroberto.easynvest.sumulator.view.ResultFragment"
+        android:name="br.com.tairoroberto.easynvest.simulator.view.ResultFragment"
         android:label="@string/simulator_fragment_label"
         tools:layout="@layout/fragment_result" />
 </navigation>

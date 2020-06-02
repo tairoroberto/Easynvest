@@ -6,7 +6,7 @@ import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.rule.ActivityTestRule
 import br.com.tairoroberto.easynvest.R
 import br.com.tairoroberto.easynvest.data.API
-import br.com.tairoroberto.easynvest.sumulator.view.MainActivity
+import br.com.tairoroberto.easynvest.simulator.view.MainActivity
 import br.com.tairoroberto.easynvest.util.UITests
 import okhttp3.mockwebserver.Dispatcher
 import okhttp3.mockwebserver.MockResponse

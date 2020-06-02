@@ -1,12 +1,12 @@
-package br.com.tairoroberto.easynvest.sumulator.viewmodel
+package br.com.tairoroberto.easynvest.simulator.viewmodel
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import br.com.tairoroberto.easynvest.core.State
-import br.com.tairoroberto.easynvest.sumulator.model.SimulatorResponse
-import br.com.tairoroberto.easynvest.sumulator.repository.SimulatorRepository
+import br.com.tairoroberto.easynvest.simulator.model.SimulatorResponse
+import br.com.tairoroberto.easynvest.simulator.repository.SimulatorRepository
 import kotlinx.coroutines.CoroutineDispatcher
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext

@@ -1,4 +1,4 @@
-package br.com.tairoroberto.easynvest.sumulator.view
+package br.com.tairoroberto.easynvest.simulator.view
 
 import android.graphics.Color
 import android.os.Bundle
@@ -16,9 +16,9 @@ import br.com.tairoroberto.easynvest.R
 import br.com.tairoroberto.easynvest.core.AppUtil.hideKeyboard
 import br.com.tairoroberto.easynvest.core.Status
 import br.com.tairoroberto.easynvest.core.extensions.*
-import br.com.tairoroberto.easynvest.sumulator.repository.SimulatorRepository
-import br.com.tairoroberto.easynvest.sumulator.viewmodel.SimulatorViewModel
-import br.com.tairoroberto.easynvest.sumulator.viewmodel.SimulatorViewModelFactory
+import br.com.tairoroberto.easynvest.simulator.repository.SimulatorRepository
+import br.com.tairoroberto.easynvest.simulator.viewmodel.SimulatorViewModel
+import br.com.tairoroberto.easynvest.simulator.viewmodel.SimulatorViewModelFactory
 import com.google.android.material.snackbar.Snackbar
 import kotlinx.android.synthetic.main.fragment_sumulator.*
 import kotlinx.coroutines.Dispatchers

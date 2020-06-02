@@ -1,4 +1,4 @@
-package br.com.tairoroberto.easynvest.sumulator.view
+package br.com.tairoroberto.easynvest.simulator.view
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity

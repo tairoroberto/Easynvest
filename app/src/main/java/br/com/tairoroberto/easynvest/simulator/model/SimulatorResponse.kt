@@ -1,4 +1,4 @@
-package br.com.tairoroberto.easynvest.sumulator.model
+package br.com.tairoroberto.easynvest.simulator.model
 
 import android.os.Parcelable
 import com.google.gson.annotations.SerializedName

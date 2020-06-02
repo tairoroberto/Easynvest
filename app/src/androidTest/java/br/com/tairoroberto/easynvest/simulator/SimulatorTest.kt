@@ -3,7 +3,7 @@ package br.com.tairoroberto.easynvest.simulator
 import androidx.test.rule.ActivityTestRule
 import br.com.tairoroberto.easynvest.data.ApiService
 import br.com.tairoroberto.easynvest.robots.SimulatorRobot
-import br.com.tairoroberto.easynvest.sumulator.view.MainActivity
+import br.com.tairoroberto.easynvest.simulator.view.MainActivity
 import okhttp3.mockwebserver.MockWebServer
 import org.junit.After
 import org.junit.Before

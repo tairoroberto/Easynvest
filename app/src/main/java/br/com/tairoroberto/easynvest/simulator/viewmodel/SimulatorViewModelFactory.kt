@@ -1,8 +1,8 @@
-package br.com.tairoroberto.easynvest.sumulator.viewmodel
+package br.com.tairoroberto.easynvest.simulator.viewmodel
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
-import br.com.tairoroberto.easynvest.sumulator.repository.SimulatorRepository
+import br.com.tairoroberto.easynvest.simulator.repository.SimulatorRepository
 import kotlinx.coroutines.CoroutineDispatcher
 
 class SimulatorViewModelFactory(

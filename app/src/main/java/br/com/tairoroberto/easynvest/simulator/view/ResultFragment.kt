@@ -1,4 +1,4 @@
-package br.com.tairoroberto.easynvest.sumulator.view
+package br.com.tairoroberto.easynvest.simulator.view
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -10,7 +10,7 @@ import br.com.tairoroberto.easynvest.R
 import br.com.tairoroberto.easynvest.core.extensions.formatValue
 import br.com.tairoroberto.easynvest.core.extensions.formatValueCurrency
 import br.com.tairoroberto.easynvest.core.extensions.parseDate
-import br.com.tairoroberto.easynvest.sumulator.model.SimulatorResponse
+import br.com.tairoroberto.easynvest.simulator.model.SimulatorResponse
 import kotlinx.android.synthetic.main.fragment_result.*
 
 class ResultFragment : Fragment() {
